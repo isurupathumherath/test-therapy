@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+pnpm-lock.yaml
+
+# Build outputs
+build
+.dist
+dist
+.next
+out
+coverage
+
+# Env
+.env
+.env.*
+!.env.example
+
+# OS/IDE
+.DS_Store
+.vscode
+.idea
+.eslintcache
+
+# Misc
+logs
+*.log
+.turbo
+.vercel
